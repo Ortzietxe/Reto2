@@ -35,15 +35,16 @@
 
     <!-- includes php datos-->
     <?php
-    require_once('PHPMailer/PHPMailerAutoload.php');
-    require_once('sendEmails.php');
+    /*require_once('PHPMailer/PHPMailerAutoload.php');
+    require_once('sendEmails.php');*/
     //require_once('acceso_a_datos/conexion.php');
-    echo 'tupadre';
+    
     require_once('acceso_a_datos/funciones_index.php');
     require_once('acceso_a_datos/funciones_vista_anuncio.php');
     require_once('acceso_a_datos/funciones_vista_perfil.php');
     require_once('acceso_a_datos/funciones_publicar_anuncio.php');
     require_once('actions.php');
+    echo 'tupadre';
     ?>
 
 </head>
