@@ -9,7 +9,7 @@
     <form id="search_container" action="index.php">
         <select name="search_categoria" id="search_categoria">
             <option class="option" value="">Categoria</option>
-            <?php add_categorias_bar("option") ?>
+            <?php //add_categorias_bar("option") ?>
         </select>
         <input type="text" name="search_titulo" id="search_titulo" placeholder='Inserte un "Titulo" de anuncio'>
         <button type="submit" id="search_button"><i class="fa fa-search"></i></button>
