@@ -51,6 +51,6 @@
 
 <!-- Barra de navegacion -->
 <?php
-require 'barra_nav_principal.php';
+require ('barra_nav_principal.php');
 ?>
 
