@@ -1,2 +1,3 @@
 <?php
-header ("Location: /index/PHP/index.php");
+phpinfo();
+//header ("Location: /index/PHP/index.php");
