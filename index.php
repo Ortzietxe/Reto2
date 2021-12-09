@@ -1,5 +1,5 @@
 <?php
- require '/index/PHP/head.php'; ?>
+ require 'index/PHP/head.php'; ?>
     <div class="main_container">
         <div id="tags_container" class="slider demo thing">
             <?php add_categorias_bar("barra") ?>
@@ -8,5 +8,5 @@
             <?php add_ads() ?>
         </main>
     </div>
-<?php require '/index/PHP/footer.php'; ?>
+<?php require 'index/PHP/footer.php'; ?>
 </div>
